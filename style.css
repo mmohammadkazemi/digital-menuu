@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Vazirmatn', sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+    direction: rtl;
+}
+
+header {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 2px solid #f5b301;
+}
+
+header h1 {
+    margin: 0;
+    color: #f5b301;
+    font-size: 26px;
+}
+
+header p {
+    color: #bbb;
+    margin-top: 8px;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.category h2 {
+    color: #f5b301;
+    border-right: 5px solid #f5b301;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    border-bottom: 1px solid #2a2a2a;
+    transition: 0.2s;
+}
+
+.menu-item:hover {
+    background: #1a1a1a;
+    border-radius: 10px;
+}
+
+.menu-item img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid #333;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.name {
+    font-size: 16px;
+}
+
+.price {
+    color: #f5b301;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+footer {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+    border-top: 2px solid #f5b301;
+    color: #aaa;
+}
+
+button {
+    margin-top: 10px;
+    background: #f5b301;
+    border: none;
+    padding: 10px 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: #ffd54a;
+}
